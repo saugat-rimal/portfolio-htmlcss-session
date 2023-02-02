@@ -102,6 +102,7 @@ select {
   align-items: center;
   max-width: 606px;
   margin-top: 64px;
+  
 
 }
 
@@ -293,4 +294,19 @@ cursor: pointer;
   .footer_container_email_image{
     display: none;
    }
+
+   .header_container{
+    display: none;
+  }
+
+  .main_container{
+    margin-top: 64px;
+  }
+  
+  .footer_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 }
