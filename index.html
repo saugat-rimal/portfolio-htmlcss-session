@@ -7,13 +7,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body>
+  <body class="body_container">
     <header class="header_container">
+      <p>Saugat Rimal</p>
       <nav class="nav_wrapper">
-        <p class="nav_item">Saugat Rimal</p>
-        <p class="nav_item">About</p>
-        <p class="nav_item">Projects</p>
-        <p class="nav_item">Contact</p>
+        <a class="nav_item" href="#projects">About</a>
+        <a class="nav_item" href="#projects">Projects</a>
+        <a class="nav_item" href="#projects">Contact</a>
       </nav>
     </header>
 
@@ -39,15 +39,15 @@
         </span>
       </section>
 
-      <section class="projects_container">
+      <section class="projects_container" id="projects">
         <h3>Selected Projects</h3>
 
         <!-- project 1  -->
         <div class="projects_wrapper">
           <div class="project_content">
             <p class="intro">2019 - present</p>
-            <h4>This is a project name! Name wisely!</h4>
-            <p>
+            <h4 class="project_title">This is a project name! Name wisely!</h4>
+            <p class="project_subtitle">
               Fill your project brief here. It can be the outcome of the
               project, or some success metrics, or a cheesy tagline.
             </p>
@@ -66,8 +66,8 @@
         <div class="projects_wrapper">
           <div class="project_content">
             <p class="intro">2019 - present</p>
-            <h4>This is a project name! Name wisely!</h4>
-            <p>
+            <h4 class="project_title">This is a project name! Name wisely!</h4>
+            <p class="project_subtitle">
               Fill your project brief here. It can be the outcome of the
               project, or some success metrics, or a cheesy tagline.
             </p>
@@ -86,8 +86,8 @@
         <div class="projects_wrapper">
           <div class="project_content">
             <p class="intro">2019 - present</p>
-            <h4>This is a project name! Name wisely!</h4>
-            <p>
+            <h4 class="project_title">This is a project name! Name wisely!</h4>
+            <p class="project_subtitle">
               Fill your project brief here. It can be the outcome of the
               project, or some success metrics, or a cheesy tagline.
             </p>
@@ -108,5 +108,50 @@
         </span>
       </section>
     </main>
+
+    <footer class="footer_container">
+      <div class="box_container">
+        <div class="project_content">
+          <h4 class="project_title">Get In Touch</h4>
+          <p class="project_subtitle">
+            My inbox is always open so feel free to drop me a message.
+          </p>
+          <form class="Form">
+            <input
+              class="email_input"
+              type="text"
+              placeholder="email address"
+            />
+            <input type="button" class="contact_button" value="Subscribe" />
+          </form>
+        </div>
+
+        <div>
+          <img
+            src="./images/contact.png"
+            alt="project placeholder"
+            class="footer_container_email_image"
+          />
+        </div>
+      </div>
+
+      <div class="footer_wrapper">
+        <div class="social_wrapper">
+          <span class="button">
+            <a href="">Twitter</a>
+            <img src="./images/arrow.png" alt="arrow" />
+          </span>
+          <span class="button">
+            <a href="">Twitter</a>
+            <img src="./images/arrow.png" alt="arrow" />
+          </span>
+          <span class="button">
+            <a href="">Twitter</a>
+            <img src="./images/arrow.png" alt="arrow" />
+          </span>
+        </div>
+        <p class="footer_text">Made with &#10084; by Saugat Rimal</p>
+      </div>
+    </footer>
   </body>
 </html>
